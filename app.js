@@ -59,6 +59,6 @@ function filterObject(response) {
 
 function getForexPage() {
     return $.ajax({
-        url: "https://uk.investing.com/common/technical_summary/api.php?action=TSB_updatePairs&pairs=1,2,3,5,7,9,10&timeframe=60"
+         url: "https://cors-anywhere.herokuapp.com/https://uk.investing.com/common/technical_summary/api.php?action=TSB_updatePairs&pairs=1,2,3,5,7,9,10&timeframe=60"
     });
 }
